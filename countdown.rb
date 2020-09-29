@@ -4,8 +4,8 @@ def countdown(time)
   while time > 0
     sleep(1.second)
     puts "#{time} SECOND(S)!"
-  else
-    puts "HAPPY NEW YEAR!"
+  end
+  return "HAPPY NEW YEAR!"
 
 end
 def countdown_with_sleep
